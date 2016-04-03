@@ -1,3 +1,11 @@
-my name is Inigo Montoya
-You killed my father
-Prepare to die
+BEGIN
+SET a 10
+GET a
+BEGIN
+SET a 20
+GET a
+ROLLBACK
+GET a
+ROLLBACK
+GET a
+END
